@@ -1,0 +1,58 @@
+/* Estilos generales para el contenedor de la página de proyectos */
+.proyectos-wrapper {
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.proyectos-titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4e5063b1;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Contenedor de la lista de proyectos con diseño de columnas */
+.proyectos-lista {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 0 10px;
+}
+
+/* Estilo para cada tarjeta de proyecto */
+.proyecto-card {
+  background-color: rgba(237, 235, 235, 0.564);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.proyecto-nombre {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #a2a0a0;
+  margin-bottom: 10px;
+}
+
+.proyecto-descripcion,
+.proyecto-fechas,
+.proyecto-estado {
+  font-weight: 650;
+  font-size: 1.1rem;
+  color: #a2a0a0;
+  margin-bottom: 10px;
+}
+
+.proyecto-descripcion strong,
+.proyecto-fechas strong,
+.proyecto-estado strong {
+  font-weight: 500;
+  color: black;
+}

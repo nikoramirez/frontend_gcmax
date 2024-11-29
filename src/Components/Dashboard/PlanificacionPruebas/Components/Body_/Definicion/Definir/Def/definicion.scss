@@ -1,0 +1,98 @@
+.definicion-pruebas {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.definicion-pruebas-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #4e5063b1;
+}
+
+.definicion-pruebas-message {
+  color: rgba(59, 104, 200, 0.773);
+  font-size: 16px;
+}
+
+.definicion-pruebas-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.definicion-pruebas-form,
+.definicion-pruebas-table {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.definicion-pruebas-form-content {
+  margin-left: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.definicion-pruebas-label {
+  font-weight: bold;
+}
+
+.definicion-pruebas-select,
+.definicion-pruebas-textarea {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.definicion-pruebas-btn {
+  background-color: #0f56a3;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.definicion-pruebas-btn:hover {
+  background-color: #0056b3;
+}
+
+.definicion-pruebas-table-content {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.definicion-pruebas-table-content th,
+.definicion-pruebas-table-content td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: #a2a0a0;
+  text-align: center;
+}
+
+.definicion-pruebas-edit-btn {
+  background: #bcbcbc7e;
+  color: #0f56a3;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.definicion-pruebas-delete-btn {
+  background: #bcbcbc7e;
+  color: #a22b37;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.definicion-pruebas-edit-btn:hover,
+.definicion-pruebas-delete-btn:hover {
+  color: #0f56a3;
+}
