@@ -1,0 +1,74 @@
+.registro-pruebas {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registro-pruebas__title {
+  font-size: 24px;
+  color: #4e5063b1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registro-pruebas__message {
+  color: rgba(59, 104, 200, 0.773);
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registro-pruebas__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-pruebas__form-group {
+  margin-bottom: 20px;
+}
+
+.registro-pruebas__label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #a2a0a0;
+}
+
+.registro-pruebas__select,
+.registro-pruebas__textarea,
+.registro-pruebas__file-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.registro-pruebas__textarea {
+  resize: vertical;
+  height: 100px;
+  resize: none;
+}
+
+.registro-pruebas__file-input {
+  border: none;
+  padding: 5px 10px;
+}
+
+.registro-pruebas__button {
+  padding: 12px 20px;
+  background-color: #0f56a3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registro-pruebas__button:hover {
+  background-color: #0056b3;
+}
