@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.secContainer {
+  margin-left: 10px;
+  width: 31.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 12rem; /* Altura fija para la lista */
+}
+
+.headingflex {
+  text-align: center;
+  font-size: 11px;
+  color: rgba(78, 80, 99, 0.6941176471);
+}
+
+.singleCustomer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  transition: transform 0.1s ease-in-out; /* Animación suave */
+}
+
+.singleCustomer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.customerDetails .name {
+  font-weight: bold;
+  color: rgb(84, 84, 84);
+}
+
+.customerDetails small {
+  color: #666;
+}
+/*# sourceMappingURL=activity.css.map */

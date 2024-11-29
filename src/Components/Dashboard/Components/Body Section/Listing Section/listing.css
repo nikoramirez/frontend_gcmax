@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* General */
+.listingSection {
+  padding: 1px;
+}
+
+.heading {
+  margin-bottom: 1px;
+}
+
+.headingflex h1 {
+  text-align: center;
+}
+
+/* Contenedor del carrusel */
+.carouselContainer {
+  width: 100%; /* El contenedor ocupa el 90% del ancho de la pantalla */
+  overflow: hidden; /* Oculta las imágenes fuera de los bordes */
+  position: relative;
+  margin: 0 auto; /* Centra el carrusel */
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Tarjetas individuales (30% de la pantalla) */
+.singleItem {
+  flex: 0 0 33.33%; /* Cada tarjeta ocupa el 33.33% del espacio disponible */
+  width: 30%;
+  height: 200px; /* Ajusta la altura para que se vean bien */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.singleItem img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.singleItem h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: rgb(84, 84, 84);
+}
+
+/* Nueva sección de imágenes de productos destacados */
+.featuredSellers .card {
+  display: flex;
+  gap: 2px;
+  margin-top: 3px;
+}
+
+.featuredSellers .singleItem {
+  flex: 0 0 48%; /* Cada tarjeta ocupa el 50% del espacio disponible */
+  width: 50px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featuredSellers .singleItem img {
+  margin-top: -1rem;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 1px;
+}
+
+.featuredSellers .cardText {
+  font-size: 1rem;
+  color: rgb(84, 84, 84);
+}
+
+.featuredSellers .cardText .date {
+  font-weight: bold;
+  color: #555;
+}
+
+.featuredSellers .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featuredSellers .btn {
+  background: #3f78f8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.featuredSellers .icon {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=listing.css.map */
